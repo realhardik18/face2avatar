@@ -85,7 +85,7 @@ export default function Playground() {
             className="flex items-center gap-2 border-gray-300 dark:border-gray-700"
           >
             {darkMode ? <Sun size={18} /> : <Moon size={18} />}
-            {darkMode ? "Light" : "Dark"}
+            {darkMode ? "Dark" : "Light"}
           </Button>
         </div>
       </nav>
@@ -117,7 +117,7 @@ export default function Playground() {
             <Button
               className="flex-1 bg-black text-white dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors duration-200"
               onClick={() => {
-                /* Implement create logic */
+                console.log('hello');
               }}
             >
               {image ? "Create" : "Upload Image"}
